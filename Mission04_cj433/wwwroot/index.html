@@ -4,20 +4,25 @@
     <meta charset="utf-8" />
     <!--Webpage Title-->
     <title>Colby Jensen</title> 
+    <!--Website Icon-->
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <!--Bootstrap-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Own CSS File-->
     <link href="css/default.css" rel="stylesheet" />
 </head>
 <body>
-    <h1 class="center">Colby Jensen's Snapshot</h1>
+    <h1>Colby Jensen's Snapshot</h1>
 
     <!--Header w/ Preferred Name-->
-    <h3 class="center">Preferred Name: Colby "El Chapo" Jensen</h3>
+    <h3>Preferred Name: Colby "El Chapo" Jensen</h3>
 
     <!--Picture doing something I enjoy-->
     <p class="center">I enjoy hanging out with Prof. Hilton. (See Picture Below)</p>
     <img src="img/goat.jpg" class="center" />
 
     <!--Paragraph on what I hope to get out of IS 413-->
-    <h3 class="center">IS 413 Goals:</h3>
+    <h3>IS 413 Goals:</h3>
     <div>
         <p>
             There is a lot I hope to get out of IS 413.  My first priority is to love C#.  I know that it will be a steep climb, but the reward will be worth it.
@@ -26,12 +31,48 @@
     </div>
 
     <!--List of top three jobs I'm interested in-->
-    <h3 class="center">Top 3 Jobs I'm Interested In:</h3>
+    <h3>Top 3 Jobs I'm Interested In:</h3>
     <ul class="center">
         <li>1. Data Analytics/BI</li>
         <li>2. Software Development</li>
         <li>3. Consulting</li>
     </ul>
 
+    <!--Grade Calculator-->
+    <h3>Final Grade Calculator</h3>
+    <h5 class="center">Enter Percentages as Whole Numbers</h5>
+    <form>
+        <label>Assignments Grade</label>
+        <input id="assignment" />
+        <br />
+        <label>Group Project Grade</label>
+        <input id="group" />
+        <br />
+        <label>Quizzes Grade</label>
+        <input id="quiz" />
+        <br />
+        <label>Midterm Grade</label>
+        <input id="mid" />
+        <br />
+        <label>Final Exam Grade</label>
+        <input id="final" />
+        <br />
+        <label>INTEX Grade</label>
+        <input id="intex" />
+        <br />
+        <h3>Results:</h3>
+        <p id="letter" class="center"></p>
+        <p id="percent" class="center"></p>
+        <br />
+        <input id="btnCalc" type="button" value="Calculate" />
+        <br />
+        <br />
+        <br />
+    </form>
+
+    <!--JavaScript and JQuery-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Calculator.js"></script>
 </body>
 </html>

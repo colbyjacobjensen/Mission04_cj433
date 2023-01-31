@@ -22,3 +22,19 @@ div {
     width: 425px;
     margin: 0 auto;
 }
+
+.input {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
