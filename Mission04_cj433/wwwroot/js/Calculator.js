@@ -1,4 +1,5 @@
-﻿/*Grade Calculator Function*/
+﻿/* Grade Calculator Function */
+/* JQuery Used */
 
 $("#btnCalc").click(function calc() {
     var assignment = $("#assignment").val();
