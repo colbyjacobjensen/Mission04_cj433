@@ -1,0 +1,24 @@
+﻿/*Changes using own CSS file*/
+
+.center {
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+div {
+    text-align: center;
+    width: 425px;
+    margin: 0 auto;
+}
