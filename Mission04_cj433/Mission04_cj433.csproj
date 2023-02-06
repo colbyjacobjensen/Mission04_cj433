@@ -8,8 +8,4 @@
     <Content Remove="wwwroot\img\goat.jpg.jpg" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission04_cj433.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,14 @@ namespace Mission04_cj433.Controllers
             return View();
         }
 
-        public IActionResult FanMail()
+        [HttpGet]
+        public IActionResult Calculator()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Calculator(CalculatorModel model)
         {
             return View();
         }

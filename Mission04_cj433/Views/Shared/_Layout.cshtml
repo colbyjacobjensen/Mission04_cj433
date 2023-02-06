@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<!--Shared HTML-->
+<!DOCTYPE html>
 
 <html>
 
@@ -18,13 +19,14 @@
 <body>
     <div class="topnav">
         <a asp-controller="View" asp-action="Index">Home</a>
-        <a asp-controller="View" asp-action="FanMail">Fan Mail</a>
+        <a asp-controller="View" asp-action="Calculator">Grade Calculator</a>
     </div>
 
     <div>
         @RenderBody()
     </div>
 
+    <!--Bootstrap and JQuery-->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
 </body>
