@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!--Webpage Title-->
+    <title>@ViewData["Title"]</title>
+    <!--Website Icon-->
+    <link rel="icon" href="~/img/icon.png" type="image/x-icon" />
+    <!--Bootstrap-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Own CSS File-->
+    <link href="~/css/default.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topnav">
+        <a asp-controller="View" asp-action="Index">Home</a>
+        <a asp-controller="View" asp-action="FanMail">Fan Mail</a>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+</body>
+
+</html>
